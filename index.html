@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ali&Skilly</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #Margin{
+                margin: 0px 7px;
+                margin-bottom: 0;
+                background-color: #F0F0F2;
+                padding: 0px 7px;
+                border-radius: 20px;
+                text-align: center;
+                ;
+            }
+            .Questions{
+                position: relative;
+                top: -25px;
+                font-size: 150%;
+            }
+            .BarAdj{
+                position: relative;
+                top: -3px;
+            }
+            input:focus{
+                background-color: gainsboro;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="Margin">
+            <p style="font-size: 250%;">Cube Basics</p>
+            <div class="Questions">
+
+                <form action="connect.php" method="post">
+                    <p>
+                        Email: 
+                        <span class="BarAdj"><input type="email" placeholder="example@gmail.com" name="email"></span>
+                    </p>
+
+
+                    <p>
+                        Password: 
+                        <span class="BarAdj"><input style="width: 135px;" type="password" placeholder="Password" name="pass"></span>
+                    </p>
+
+
+                    <p>
+                        Confirm Password: 
+                        <span class="BarAdj"><input style="width: 135px;" type="password" placeholder="Confirm" name="cpass"></span>
+                    </p>
+
+                    <p>
+                        <span style="position: relative; top: -18px;">Keep logged in: </span>
+                        <span><input style="height: 50px;" type="checkbox"></span>
+                    </p>
+                    <a style="position: relative; top: -18px;" href="file:///C:/Users/Ali/Desktop/Code%20n%20dat/Code%20File.html">Already have an account?</a>
+                    <p style="position: relative; top: -18px;">
+                        Experience:-<br>
+                        <span>Beginner: <input type="radio" name="Exp" val="Beg"></span><br>
+                        <span>Intermediate: <input type="radio" name="Exp" val="Int"></span><br>
+                        <span>Pro: <input type="radio" name="Exp" val="Pro"></span>
+                    </p>
+                    <p style="position: relative; top: -18px;">
+                        <a href="file:///C:/Users/Ali/Desktop/Code%20n%20dat/Code%20File.html">
+                            <input type="submit" value="Sign Up!">
+                        </a>
+                    </p>
+                </form>
+
+            </div>
+        </div>
+
+    </body>
+</html>
